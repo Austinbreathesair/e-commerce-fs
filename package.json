@@ -1,0 +1,34 @@
+{
+  "name": "e-commerce",
+  "version": "1.0.0",
+  "description": "Full stack e-commerce project",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Austinbreathesair/E-commerce.git"
+  },
+  "author": "Austin Reid",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "concurrently": "^5.3.0",
+    "config": "^3.3.3",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.11",
+    "validator": "^13.5.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "bugs": {
+    "url": "https://github.com/Austinbreathesair/E-commerce/issues"
+  },
+  "homepage": "https://github.com/Austinbreathesair/E-commerce#readme"
+}
